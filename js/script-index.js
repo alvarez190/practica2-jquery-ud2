@@ -13,7 +13,7 @@ $(document).ready(function() {
     $('.switcher').click(function(e) {
         $('.switcher button').show(500);
 
-        $(this).click(function(e) {
+        $(this).dblclick(function(e) {
 
             $('.switcher button').hide();
             e.preventDefault();
